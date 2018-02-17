@@ -423,6 +423,10 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 			case 'clark':
                 bot.sendMessage({ to: channelID, message: '*peers under top of doorframe* Hey kids.' });
             break;
+			// !owen
+			case 'owen':
+                bot.sendMessage({ to: channelID, message: '*checks watch* Arlight time to monologue about my bike again.' });
+            break;
             default:
                 bot.sendMessage({ to: channelID, message: 'Unknown command.' });
         }
